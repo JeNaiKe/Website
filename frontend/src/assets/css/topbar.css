@@ -1,0 +1,69 @@
+.topbar{
+    background-color: rgba(0, 0, 0, .0);
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topbar-content{
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-weight: 800;
+    /**/
+    background-color: rgba(110, 130, 150, 0.2);
+    border-radius: 2px;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.1);
+    
+    background-image: url("../../assets/img/glass_background.png");
+    background-size:contain;
+    
+    border-image: url("../../assets/img/g_plane_16.png") 1/4px;
+    
+}
+
+@media (max-width: 650px) {
+    .topbar-content {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
+
+
+
+.topbar-sites{
+    font-size: 110%;
+}
+
+.topbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.topbar a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgba(245,248,255,0.5);
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;
+    text-underline-offset: 8px;
+}
+
+.topbar .separator {
+    user-select: none;
+    cursor: default;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #98d2ed;
+}
+
+.topbar .current{
+    color: rgb(233, 223, 20);
+    font-size: 120%;
+}

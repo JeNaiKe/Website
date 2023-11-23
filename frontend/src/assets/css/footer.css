@@ -1,0 +1,57 @@
+.footer{
+    width: 1200px;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto auto 0 auto;
+}
+
+.footer-content{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    overflow: visible !important;
+}
+
+.footer-links, .footer-middle, .footer-copyright{
+    margin: 0;
+}
+
+.footer-links{
+    text-align: center;
+    width: 50%;
+    margin-right: 16px;
+    font-size: 85%;
+}
+
+.footer-copyright{
+    text-align: center;
+    width: 50%;
+    margin-left: 16px;
+    font-size: 92.5%;
+}
+
+.footer-middle{
+    display: none;
+    text-align: center;
+    background: url("../../assets/img/footer-bg.jpg");
+    background-position: center center;
+    background-size: 192px;
+    width: 240px;
+    position: relative;
+    overflow: visible !important;
+    padding: 0;
+
+    background-color: rgba(235,230,240,1);
+    background-image: url("../../assets/img/glass_background.png");
+    background-size: contain;
+}
+
+.paneel{
+    background-image: linear-gradient(rgba(0,0,0,0.1) 10%, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+
+.paneel-inset{
+    background-image: url("../../assets/img/glass_background.png");
+    background-size: contain;
+}
